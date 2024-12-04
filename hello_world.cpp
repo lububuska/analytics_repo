@@ -1,12 +1,13 @@
 #include <iostream>
-using namespace std;
-int main() {
-	//Переменная для имени пользователя
+int
+main()
+{
+		//A variable for the user name
 	std::string name;
-	//Вводим имя пользователя
-	std::cout <<"Enter your name: ";
+		//Entering a name
+	std::cout << "Enter your name: ";
 	std::cin >> name;
-	//Выводим приветствие и имя пользователя
-	std::cout << "Hello World from " << name << "!" << std::endl;
+		//Output of greeting and name
+	std::cout << "Hello world from " << name << "!" << std::endl;
 	return 0;
 }
